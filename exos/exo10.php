@@ -6,13 +6,12 @@ $splitWord = str_split($lowerWord);
 $inverseWord = "";
 for($i = count($splitWord)-1; $i >= 0; $i--) {
     $inverseWord .= $splitWord[$i];
-    echo "<br>";
 }
 
 if($lowerWord == $inverseWord){
-    echo $mot . " " . "Est un palindrome";
+    echo $mot . " est un palindrome";
 } else {
-    echo $mot . " " . "N'est pas un palindrome";
+    echo $mot . " n'est pas un palindrome";
 }
 
 
